@@ -26,14 +26,6 @@ var_dump($_GET);
 
 $persona="Joan Tiscar Verdiell";
 
-$person = {
-
-    'name' => 'Joan Tíscar Verdiell',
-    'dni' => '482423423x',
-    'mobile' => '666666666'
-
-}
-
 
 echo $fruites[0];
 

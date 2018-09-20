@@ -24,7 +24,17 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost root" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost root" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -33,36 +43,41 @@
         <counts>
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="php" value="11" />
+          <entry key="php" value="14" />
+          <entry key="sql" value="1" />
+          <entry key="tables" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Database Element" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="11" />
+          <entry key="PHP" value="14" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
           <entry key="md" value="1" />
-          <entry key="php" value="1675" />
+          <entry key="php" value="2330" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="1675" />
+          <entry key="PHP" value="2330" />
           <entry key="PLAIN_TEXT" value="52" />
         </counts>
       </usages-collector>
@@ -74,6 +89,11 @@
           <entry key="without.target.element" value="2" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
@@ -82,31 +102,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/tasks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/tests/TaskTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="495">
+              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Task.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fdc7d5f6-d687-4fb6-a496-6f2dab606821/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -141,6 +172,9 @@
         <option value="$PROJECT_DIR$/vendor/functions.php" />
         <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/tasks.php" />
+        <option value="$PROJECT_DIR$/models/Task.php" />
+        <option value="$PROJECT_DIR$/tests/TaskTest.php" />
       </list>
     </option>
   </component>
@@ -196,13 +230,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="php-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -217,23 +260,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/autoload.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/vendor" />
-      <recent name="$PROJECT_DIR$/tests" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
@@ -249,12 +295,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.functions.php">
-    <configuration name="HelloTest.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/php-learning/tests/HelloTest.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.TaskTest">
     <configuration name="HelloWorldTest.testHelloWorld" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="HelloWorldTest" file="$PROJECT_DIR$/tests/HelloTest.php" method="testHelloWorld" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TaskTest" file="$PROJECT_DIR$/tests/TaskTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="functions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/functions.php">
@@ -267,19 +314,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.HelloTest.php" />
       <item itemvalue="PHPUnit.HelloWorldTest.testHelloWorld" />
       <item itemvalue="PHP Script.hello.php" />
       <item itemvalue="PHP Script.hello2.php" />
       <item itemvalue="PHP Script.functions.php" />
+      <item itemvalue="PHPUnit.TaskTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TaskTest" />
         <item itemvalue="PHP Script.functions.php" />
         <item itemvalue="PHP Script.hello.php" />
         <item itemvalue="PHP Script.hello2.php" />
         <item itemvalue="PHPUnit.HelloWorldTest.testHelloWorld" />
-        <item itemvalue="JavaScript Debug.HelloTest.php" />
       </list>
     </recent_temporary>
   </component>
@@ -299,40 +346,44 @@
       <workItem from="1537368830832" duration="962000" />
       <workItem from="1537369838837" duration="201000" />
       <workItem from="1537370088624" duration="2580000" />
+      <workItem from="1537461876799" duration="4924000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 02m 18s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 19h 52m 34s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 02m 28s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 19h 52m 53s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 08m 10s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 19h 54m 51s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 09m 02s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 19h 56m 05s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 09m 08s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 20h 01m 09s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 17m 43s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 20h 02m 07s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 24m 56s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 20h 02m 26s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 28m 15s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 20h 06m 23s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="HelloWorldTest_testHelloWorld - 2018.09.18 at 21h 28m 42s.xml">
-      <configuration name="HelloWorldTest.testHelloWorld" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="TaskTest - 2018.09.20 at 20h 07m 46s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TaskTest - 2018.09.20 at 20h 08m 11s.xml">
+      <configuration name="TaskTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9430000" />
+    <option name="totallyTimeSpent" value="14354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,26 +398,49 @@
     <frame x="67" y="25" width="1373" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.21250942" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.20830299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50067115" side_tool="true" weight="0.24943481" />
+      <window_info anchor="bottom" id="Database Console" weight="1.0" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32804877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32931423" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20611799" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.20830299" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50067115" side_tool="true" weight="0.24943481" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="1.0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.20611799" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -411,20 +485,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -435,10 +509,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://fdc7d5f6-d687-4fb6-a496-6f2dab606821/schema/information_schema/view/tables">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fdc7d5f6-d687-4fb6-a496-6f2dab606821/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TaskTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
         </state>
       </provider>
     </entry>
