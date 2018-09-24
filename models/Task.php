@@ -26,4 +26,11 @@ class Task
     {
         $this->completed = true;
     }
+
+    public static function all(){
+        $pdo = Connection::connect();
+        return QueryBuilder::fetchALl($pdo, 'tasks');
+
+
+    }
 }
