@@ -10,6 +10,9 @@
 <body>
 
 
+<!-- NO HTML5-->
+
+<!-- semàntica -->
 
 
 <nav>
@@ -21,27 +24,7 @@
 </nav>
 
 
-
-
-
-<h1>Tasks</h1>
-<p>Les meves tasques pendents són:</p>
-<br>
-<ul>
-<?php foreach ($tasks as $task) :?>
-    <li>
-            <?php if ($task->completed == true): ?>
-                <strike>
-                    <?php endif; ?>
-
-                             <?= $task->name; ?>
-                    <?php if ($task->completed == true): ?>
-                    </strike>
-                    <?php endif; ?>
-           </li>
-    <?php endforeach;?>
-</ul>
-
+<h1>ABOUT</h1>
 
 </body>
 </html>

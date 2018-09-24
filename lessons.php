@@ -1,9 +1,8 @@
 <?php
 
 require 'models/Lesson.php';
-require 'framework/database/Connection.php';
-require 'framework/database/QueryBuilder.php';
 
+require 'framework/bootstrap.php';
 
 
 $pdo = Connection::connect();
@@ -11,11 +10,9 @@ $pdo = Connection::connect();
 
 // CONSULTA SQL -> STATEMENT SQL
 
-$lessons = QueryBuilder::fetchAll($pdo,'lessons');
+$lessons = Lesson::all();
 
 
 
 
 require 'views/lessons.blade.php';
-
-

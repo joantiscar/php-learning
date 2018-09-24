@@ -2,19 +2,27 @@
 /**
  * Created by PhpStorm.
  * User: dios
- * Date: 21/09/18
- * Time: 15:49
+ * Date: 20/09/18
+ * Time: 19:38
  */
 
-class Person{
-
+class Person
+{
+    // CONSTRUCTOR
     public $name;
-    public $DNI;
-
-    public function __construct($name, $DNI)
+    /**
+     * Person constructor.
+     * @param $name
+     */
+    public function __construct($name)
     {
         $this->name = $name;
-        $this->DNI = $DNI;
     }
 
+    public static function all(){
+        $pdo = Connection::connect();
+        return QueryBuilder::fetchALl($pdo, 'people');
+
+
+    }
 }
