@@ -1,34 +1,38 @@
 <?php
 
+require 'vendor/autoload.php';
 
-require 'functions.php';
-
-
-var_dump($_GET);
+require 'framework/bootstrap.php';
 
 
+// FC --> Front Controller -> un sol fitxer PHP (index.php) executa tota la aplicació.
 
-//String ->$greeting='Hola';
+// SEMPRE s'executa primer index.php
 
-//Array/Vector
-//$fruites = array();
+//URI
+// /tasks -> require 'views/tasks.blade.php';
+// /people -> require 'views/people.blade.php';
 
-//$fruites = [];
+// ROUTER per URI
 
-//Array normal
-//$platan = 'platan';
-//$presec = 'prèsec';
-//$taronja = 'taronja';
-//$fruites = [$platan, $presec, $taronja];
+// ? Com aconseguir la URI?
 
 
-//Array associatiu
+// DOs opcions:
+// - Funció global
 
-$persona="Joan Tiscar Verdiell";
+//$_GET o $_POST
 
 
-echo $fruites[0];
+require direct($_SERVER['REQUEST_URI']);
 
-$greeting= hello($_GET[who]);
+// MVC: Model Vista Controlador
 
-require 'views/index.blade.php';
+
+
+
+// - Metode dins d'una classe (funció dins d'una classe el eu nom tècnic es mètode)
+//router = new Router();
+//require $router->direct($uri);
+
+//require Router::direct($uri);

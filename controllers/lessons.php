@@ -1,8 +1,6 @@
 <?php
 
-require 'models/Lesson.php';
 
-require 'framework/bootstrap.php';
 
 
 $pdo = Connection::connect();

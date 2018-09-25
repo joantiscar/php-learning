@@ -1,5 +1,16 @@
 {
+    "name": "dios/php-learning",
+    "description": "Bla bla bla",
     "require": {
-        "phpunit/phpunit": "^7.3",
+        "phpunit/phpunit": "^7.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "files" : [
+
+            "./helpers.php"
+        ]
     }
 }

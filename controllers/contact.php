@@ -5,4 +5,4 @@
  * Date: 24/09/18
  * Time: 20:06
  */
-require 'views/about.blade.php';
+require '..views/contact.blade.php';

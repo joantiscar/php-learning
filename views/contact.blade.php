@@ -17,11 +17,11 @@
 
 
 <nav>
-    <li><a href="/tasks.php">Tasques</a></li>
-    <li><a href="/lessons.php">Lessons</a></li>
-    <li><a href="/people.php">People</a></li>
-    <li><a href="/contact.php">Contacte</a></li>
-    <li><a href="/about.php">Sobre nosaltres</a></li>
+    <li><a href="/controllers/tasks.php">Tasques</a></li>
+    <li><a href="/controllers/lessons.php">Lessons</a></li>
+    <li><a href="/controllers/people.php">People</a></li>
+    <li><a href="/controllers/contact.php">Contacte</a></li>
+    <li><a href="/controllers/about.php">Sobre nosaltres</a></li>
 </nav>
 
 
