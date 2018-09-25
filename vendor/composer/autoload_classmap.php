@@ -908,6 +908,7 @@ return array(
     'RequirementsClassBeforeClassHookTest' => $vendorDir . '/phpunit/phpunit/tests/_files/RequirementsClassBeforeClassHookTest.php',
     'RequirementsClassDocBlockTest' => $vendorDir . '/phpunit/phpunit/tests/_files/RequirementsClassDocBlockTest.php',
     'RequirementsTest' => $vendorDir . '/phpunit/phpunit/tests/_files/RequirementsTest.php',
+    'Router' => $baseDir . '/framework/Router.php',
     'RouterTest' => $vendorDir . '/phpunit/phpunit/tests/_files/RouterTest.php',
     'SampleArrayAccess' => $vendorDir . '/phpunit/phpunit/tests/_files/SampleArrayAccess.php',
     'SampleClass' => $vendorDir . '/phpunit/phpunit/tests/_files/SampleClass.php',

@@ -2,9 +2,9 @@
 
 
 class QueryBuilder{
-    public function fetchAll($connection, $table){
+    public static function fetchAll($connection, $table){
 
-        $statement = $connection->prepare("SELECT * FROM $table");
+        $statement = $connection->prepare("SELECT * FROM $table;");
 
 
         $statement->execute();

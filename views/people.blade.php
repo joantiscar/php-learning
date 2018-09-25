@@ -8,7 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-
+<nav>
+    <li><a href="tasks">Tasques</a></li>
+    <li><a href="lessons">Lessons</a></li>
+    <li><a href="people">People</a></li>
+    <li><a href="contact">Contacte</a></li>
+    <li><a href="about">Sobre nosaltres</a></li>
+</nav>
 <h1>Persones</h1>
 <p>Les persones de la base de dades son:</p>
 <br>

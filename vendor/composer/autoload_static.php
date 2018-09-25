@@ -961,6 +961,7 @@ class ComposerStaticInitee31d72e9ea07f1cdafddf03c3d4490e
         'RequirementsClassBeforeClassHookTest' => __DIR__ . '/..' . '/phpunit/phpunit/tests/_files/RequirementsClassBeforeClassHookTest.php',
         'RequirementsClassDocBlockTest' => __DIR__ . '/..' . '/phpunit/phpunit/tests/_files/RequirementsClassDocBlockTest.php',
         'RequirementsTest' => __DIR__ . '/..' . '/phpunit/phpunit/tests/_files/RequirementsTest.php',
+        'Router' => __DIR__ . '/../..' . '/framework/Router.php',
         'RouterTest' => __DIR__ . '/..' . '/phpunit/phpunit/tests/_files/RouterTest.php',
         'SampleArrayAccess' => __DIR__ . '/..' . '/phpunit/phpunit/tests/_files/SampleArrayAccess.php',
         'SampleClass' => __DIR__ . '/..' . '/phpunit/phpunit/tests/_files/SampleClass.php',

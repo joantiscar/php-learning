@@ -5,6 +5,7 @@ require 'vendor/autoload.php';
 require 'framework/bootstrap.php';
 
 
+
 // FC --> Front Controller -> un sol fitxer PHP (index.php) executa tota la aplicació.
 
 // SEMPRE s'executa primer index.php
@@ -24,7 +25,7 @@ require 'framework/bootstrap.php';
 //$_GET o $_POST
 
 
-require direct($_SERVER['REQUEST_URI']);
+require Router::direct($_SERVER['REQUEST_URI']);
 
 // MVC: Model Vista Controlador
 

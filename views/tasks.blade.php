@@ -13,11 +13,11 @@
 
 
 <nav>
-    <li><a href="/controllers/tasks.php">Tasques</a></li>
-    <li><a href="/controllers/lessons.php">Lessons</a></li>
-    <li><a href="/controllers/people.php">People</a></li>
-    <li><a href="/controllers/contact.php">Contacte</a></li>
-    <li><a href="/controllers/about.php">Sobre nosaltres</a></li>
+    <li><a href="tasks">Tasques</a></li>
+    <li><a href="lessons">Lessons</a></li>
+    <li><a href="people">People</a></li>
+    <li><a href="contact">Contacte</a></li>
+    <li><a href="about">Sobre nosaltres</a></li>
 </nav>
 
 
@@ -28,6 +28,7 @@
 <p>Les meves tasques pendents són:</p>
 <br>
 <ul>
+
 <?php foreach ($tasks as $task) :?>
     <li>
             <?php if ($task->completed == true): ?>

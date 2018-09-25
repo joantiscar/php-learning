@@ -4,6 +4,7 @@ function direct($uri){
 
 
     $routes = [
+        '/' => 'controllers/tasks.php',
         '/tasks' => 'controllers/tasks.php',
         '/people' => 'controllers/people.php',
         '/lessons' => 'controllers/lessons.php',
@@ -24,5 +25,5 @@ function direct($uri){
 }
 function view($view){
 
-    require "views/$view.blade.php";
+    return "views/$view.blade.php";
 }

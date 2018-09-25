@@ -3,6 +3,8 @@
 
 
 $tasks = Task::all();
-view('tasks',[$tasks]);
+
+
+require view('tasks',[$tasks]);
 
 
